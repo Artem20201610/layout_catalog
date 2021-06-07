@@ -1,4 +1,9 @@
 @import "utils/variables.scss";
+@import "blocks/header.scss";
+@import "blocks/navigation.scss";
+@import "blocks/products.scss";
+@import "blocks/product.scss";
+@import "blocks/stars.scss";
 
 * {
   box-sizing: border-box;
@@ -15,9 +20,3 @@
   display: block;
   margin: 0;
 }
-
-@import "blocks/header.scss";
-@import "blocks/navigation.scss";
-@import "blocks/products.scss";
-@import "blocks/product.scss";
-@import "blocks/stars.scss";

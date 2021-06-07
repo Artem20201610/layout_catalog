@@ -4,7 +4,7 @@
 
   &__star {
     width: 15px;
-    background: url(images/star.svg) no-repeat 50%;
+    background: url("images/star.svg") no-repeat 50%;
 
     &:not(:first-child) {
       margin-left: 4px;
@@ -13,7 +13,7 @@
 
   @for $index from 1 through 5 {
     &--#{$index} &__star:nth-child(-n + #{$index}) {
-      background: url(images/star-active.svg) no-repeat 50%;
+      background: url("images/star-active.svg") no-repeat 50%;
     }
   }
 }
