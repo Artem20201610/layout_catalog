@@ -134,9 +134,7 @@
 .image {
   width: 160px;
   height: 134px;
-  transition: transform 400ms linear,
-    padding-top 400ms linear,
-    margin-top 400ms linear;
+  transition: transform 400ms linear;
 }
 
 .image:hover {

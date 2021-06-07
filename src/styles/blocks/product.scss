@@ -69,9 +69,7 @@
 .image {
   width: $image-width;
   height: $image-height;
-  transition: transform 400ms linear,
-    padding-top 400ms linear,
-    margin-top 400ms linear;
+  transition: transform 400ms linear;
 
   &:hover {
     box-sizing: content-box;
